@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]> <html class="no-js" lang="en"> <![endif]-->
+<head>
+  <meta charset='utf-8' />
+  <!--
+    Use the .htaccess and remove these lines to avoid edge case issues.
+    More info: h5bp.com/b/378
+  -->
+  <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+  <title>
+    GrokTech
+  </title>
+  <meta content='' name='description' />
+  <meta content='' name='author' />
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta content='width=device-width,initial-scale=1' name='viewport' />
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+  <link href='stylesheets/main.css' rel='stylesheet' />
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+  <!--
+    All JavaScript at the bottom, except this Modernizr build incl. Respond.js
+    Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects;
+    for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/
+  -->
+  <script src='js/libs/modernizr-2.0.6.min.js'></script>
+</head>
+<body>
+  <div id='container'>
+    <header>
+      <a href='index.html'>
+        <img class='logo' src='img/logo.png' />
+      </a>
+      <map name='socialmap'>
+        <area coords='0,0,27,27' href='http://facebook.com/groktech' shape='rect' />
+        <area coords='27,0,55,27' href='http://twitter.com/groktech' shape='rect' />
+      </map>
+      <nav>
+        <ul class='top_list'>
+          <li class='top_list_item'>
+            <a href='index.html'>Home</a>
+          </li>
+          <li class='top_list_item'>
+            <a href='#'>Applications</a>
+            <ul>
+              <li>
+                <a href='panchang.html'>Panchang</a>
+              </li>
+              <li>
+                <a href='emergency.html'>Emergency/SOS</a>
+              </li>
+              <li>
+                <a href='backup.html'>Backup My Phone</a>
+              </li>
+              <li>
+                <a href='privacy.html'>Privacy Manager</a>
+              </li>
+              <li>
+                <a href='mams.html'>M-AMS</a>
+              </li>
+              <li>
+                <a href='data.html'>Data Connectivity</a>
+              </li>
+            </ul>
+          </li>
+          <li class='top_list_item'>
+            <a href='services.html'>Services</a>
+          </li>
+          <li class='top_list_item'>
+            <a href='about_us.html'>About Us</a>
+          </li>
+          <li class='top_list_item'>
+            <a href='careers.html'>Careers</a>
+          </li>
+          <li class='top_list_item'>
+            <a href='contact.html'>Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id='main' role='main'>
+      <div class='applications'>
+        <div class='txtonly'>
+          <h2 id='mams_mobile_attendance_management_system_for_field_operators'>M-AMS: Mobile Attendance Management System for Field Operators</h2>
+          
+          <p>M-AMS captures and manages attendance data from operators on field</p>
+          
+          <ul>
+          <li>This tools facilitates easy attendance management of operators on field</li>
+          
+          <li>Augments the attendance data with login-logout results specified time</li>
+          
+          <li>Reports can be generated as daily and monthly reports, reporting the presence -absence, login-logout time</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div id='footer'>
+        <a href=''>Privacy</a>
+        <a href=''>Terms and Conditions</a>
+        Copyright &copy; 2011 GrokTech Private Limited. All rights reserved
+      </div>
+    </footer>
+  </div>
+  <!-- JavaScript at the bottom for fast page loading -->
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+  <script type='text/javascript'>
+    //<![CDATA[
+      window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')
+    //]]>
+  </script>
+  <!-- scripts concatenated and minified via build script -->
+  <script defer='' src='js/plugins.js'></script>
+  <script defer='' src='js/script.js'></script>
+  <!-- end scripts -->
+  <!-- Change UA-XXXXX-X to be your site's ID -->
+  <script type='text/javascript'>
+    //<![CDATA[
+      window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+      Modernizr.load({
+        load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+      });
+    //]]>
+  </script>
+  <!--
+    Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+    chromium.org/developers/how-tos/chrome-frame-getting-started
+  -->
+  <!--[if lt IE 7 ]>
+    <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+</body>
