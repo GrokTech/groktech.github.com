@@ -1,6 +1,6 @@
 * {margin:0;padding:0}
 html,body {height:100%}
-body {background:#717171;font-family:Tahoma,Geneva,sans-serif;font-size:100%;line-height:1em;color:#404141}
+body {font-family:Tahoma,Geneva,sans-serif;font-size:100%;line-height:1.1em;color:#404141}
 input,select,textarea {font-family:Tahoma,Geneva,sans-serif;font-size:1em}
 .fleft {float:left}
 .fright {float:right}
@@ -10,6 +10,8 @@ input,select,textarea {font-family:Tahoma,Geneva,sans-serif;font-size:1em}
 .wrapper {width:100%;overflow:hidden}
 .container {width:100%}
 p {margin-bottom:16px}
+.definition {margin-left: 5px}
+.definition a {font-family:"Arial Unicode MS", Arial, Helvetica, sans-serif;font-size:18px;text-decoration:none}
 /* forms */
 input,select {vertical-align:middle;font-weight:normal}
 img {border:0;vertical-align:top;text-align:left}
@@ -39,6 +41,7 @@ ul {list-style:none}
 .list3 li span {color:#404141 !important}
 .list4 dt {font-weight:bold;margin-bottom:16px;color:#2cb6e9}
 .list4 dd {padding-bottom:16px}
+.list5 li {list-style-type:disc;list-style-position:inside;padding-bottom:4px}
 .carousel {width:100%;overflow:hidden}
 .carousel li {float:left;margin-right:15px}
 .carousel li.prev {margin-right:17px;padding-top:74px}
@@ -64,36 +67,37 @@ h4 strong {font-size:1.1em;color:#2cb6e9;display:block}
 h5 {font-size:1em;margin-bottom:5px}
 h6 {font-size:1em;font-weight:normal}
 .txt1 {color:#2cb6e9}
+table.center {margin-left:auto;margin-right:auto;}
 /* header */
-#header .row-1 {height:137px}
-#header .logo {float:left;padding:22px 0 0 10px}
-#header .top-links {float:right;padding:45px 35px 0 0}
+#header .row-1 {height:88px}
+#header .logo {float:left;padding:2px 0 0 10px}
+#header .top-links {float:right;padding:18px 35px 0 0}
 #header .top-links li {float:left;margin-left:8px}
 #header .nav-box {background:url(images/nav-box-bg.gif) left top repeat-x;width:100%}
 #header .nav-box .left {background:url(images/nav-box-left.gif) no-repeat left top}
 #header .nav-box .right {background:url(images/nav-box-right.gif) no-repeat right top;height:47px}
 /* header navigation */
-#header .nav-box ul {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif}
-#header .nav-box ul li {display:inline}
-#header .nav-box ul li a {display:block;float:left;color:#fff;text-decoration:none}
-#header .nav-box ul li a em {display:block;float:left;font-style:normal;background:url(images/divider-left.gif) no-repeat left 10px}
-#header .nav-box ul li a em b {display:block;float:left;height:47px;line-height:47px;width:158px;text-align:center;background:url(images/divider-right.gif) no-repeat right 10px;cursor:pointer}
-#header .nav-box ul li a:hover {background:url(images/nav-act.gif) left top repeat-x}
-#header .nav-box ul li a:hover em {background:url(images/divider-left-act.gif) no-repeat left 10px}
-#header .nav-box ul li a:hover b {background:url(images/divider-right-act.gif) no-repeat right 10px}
-#header .nav-box ul li a.current {background:url(images/nav-act.gif) left top repeat-x}
-#header .nav-box ul li a.current em {background:url(images/divider-left-act.gif) no-repeat left 10px}
-#header .nav-box ul li a.current b {background:url(images/divider-right-act.gif) no-repeat right 10px}
-#header .nav-box ul li a.first em {background:none}
-#header .nav-box ul li a.first:hover em {background:url(images/nav-left-act.gif) no-repeat left top}
-#header .nav-box ul li a.first-current {background:url(images/nav-act.gif) left top repeat-x}
-#header .nav-box ul li a.first-current em {background:url(images/nav-left-act.gif) no-repeat left top !important}
-#header .nav-box ul li a.first-current b {background:url(images/divider-right-act.gif) no-repeat right 10px}
-#header .nav-box ul li a.last b {background:none;width:160px}
-#header .nav-box ul li a.last:hover b {background:url(images/nav-right-act.gif) no-repeat right top}
-#header .nav-box ul li a.last-current {background:url(images/nav-act.gif) left top repeat-x}
-#header .nav-box ul li a.last-current em {background:url(images/divider-left-act.gif) no-repeat left 10px}
-#header .nav-box ul li a.last-current b {background:url(images/nav-right-act.gif) no-repeat right top !important;width:160px}
+#header .nav-box div > ul {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif}
+#header .nav-box div > ul > li {display:inline}
+#header .nav-box div > ul > li > a {display:block;float:left;color:#fff;text-decoration:none}
+#header .nav-box div > ul > li > a em {display:block;float:left;font-style:normal;background:url(images/divider-left.gif) no-repeat left 10px}
+#header .nav-box div > ul > li > a em b {display:block;float:left;height:47px;line-height:47px;width:158px;text-align:center;background:url(images/divider-right.gif) no-repeat right 10px;cursor:pointer}
+#header .nav-box div > ul > li > a:hover {background:url(images/nav-act.gif) left top repeat-x}
+#header .nav-box div > ul > li > a:hover em {background:url(images/divider-left-act.gif) no-repeat left 10px}
+#header .nav-box div > ul > li > a:hover b {background:url(images/divider-right-act.gif) no-repeat right 10px}
+#header .nav-box div > ul > li > a.current {background:url(images/nav-act.gif) left top repeat-x}
+#header .nav-box div > ul > li > a.current em {background:url(images/divider-left-act.gif) no-repeat left 10px}
+#header .nav-box div > ul > li > a.current b {background:url(images/divider-right-act.gif) no-repeat right 10px}
+#header .nav-box div > ul > li > a.first em {background:none}
+#header .nav-box div > ul > li > a.first:hover em {background:url(images/nav-left-act.gif) no-repeat left top}
+#header .nav-box div > ul > li > a.first-current {background:url(images/nav-act.gif) left top repeat-x}
+#header .nav-box div > ul > li > a.first-current em {background:url(images/nav-left-act.gif) no-repeat left top !important}
+#header .nav-box div > ul > li > a.first-current b {background:url(images/divider-right-act.gif) no-repeat right 10px}
+#header .nav-box div > ul > li > a.last b {background:none;width:160px}
+#header .nav-box div > ul > li > a.last:hover b {background:url(images/nav-right-act.gif) no-repeat right top}
+#header .nav-box div > ul > li > a.last-current {background:url(images/nav-act.gif) left top repeat-x}
+#header .nav-box div > ul > li > a.last-current em {background:url(images/divider-left-act.gif) no-repeat left 10px}
+#header .nav-box div > ul > li > a.last-current b {background:url(images/nav-right-act.gif) no-repeat right top !important;width:160px}
 /* content */
 #content {padding:0 0 20px 0;background:#fff}
 #content .section {padding-bottom:20px}
@@ -113,6 +117,10 @@ h6 {font-size:1em;font-weight:normal}
 #content .button3 em {display:block;font-style:normal;background:url(images/button3-left.gif) no-repeat left top}
 #content .button3 em b {display:block;height:35px;line-height:35px;background:url(images/button3-right.gif) no-repeat right top;cursor:pointer}
 #content .button3:hover {color:#000}
+#content table.img-indent caption {caption-side:bottom;font-family: Verdana, Geneva, sans-serif;font-size:1.2em}
+#content .align-bot td {vertical-align:bottom}
+#content .align-bot {text-align:center}
+
 .ic, .ic a {border:0;float:right;background:#f00;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-50% 0 0 0;overflow:hidden;padding:0}
 .main-banner-big {background:url(images/main-banner-big.jpg) no-repeat left top;width:950px;height:303px;margin-bottom:20px}
 .main-banner-big .inner {padding:70px 0 0 52px}
@@ -144,6 +152,7 @@ h6 {font-size:1em;font-weight:normal}
 .box .left-bot-corner {background:url(images/left-bot-corner.gif) no-repeat left bottom;width:100%}
 .box .right-bot-corner {background:url(images/right-bot-corner.gif) no-repeat right bottom}
 .box .inner {padding:27px 35px 30px 34px}
+.box #contact-form.inner {padding:27px 35px 0 34px}
 .box1 {background:#ededed;width:100%}
 .box1 .border-top {background:url(images/border-top.gif) repeat-x top}
 .box1 .border-bot {background:url(images/border-bot.gif) repeat-x bottom}
@@ -159,9 +168,10 @@ h6 {font-size:1em;font-weight:normal}
 .dept-list dd span {float:left;padding-right:25px}
 .dept-list dd p {text-align:left}
 /* footer */
-#footer {color:#fff;padding:27px 0 30px 0}
+#footer {padding:5px 0 5px 0}
 #footer .nav {text-align:center;padding-bottom:30px}
 #footer .nav li {display:inline}
 #footer .nav li a {color:#fff;padding:0 52px 0 49px}
 #footer .fleft {padding:0 0 0 44px}
-#footer .fright {padding:0 44px 0 0}
+#footer .fright {padding:0 0 0 0}
+.small {font-size:x-small}
