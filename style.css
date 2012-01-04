@@ -67,7 +67,7 @@ h4 strong {font-size:1.1em;color:#2cb6e9;display:block}
 h5 {font-size:1em;margin-bottom:5px}
 h6 {font-size:1em;font-weight:normal}
 .txt1 {color:#2cb6e9}
-table.center {margin-left:auto;margin-right:auto;}
+table.center {margin-left:auto;margin-right:auto;text-align:center}
 /* header */
 #header .row-1 {height:88px}
 #header .logo {float:left;padding:2px 0 0 10px}
@@ -117,9 +117,8 @@ table.center {margin-left:auto;margin-right:auto;}
 #content .button3 em {display:block;font-style:normal;background:url(images/button3-left.gif) no-repeat left top}
 #content .button3 em b {display:block;height:35px;line-height:35px;background:url(images/button3-right.gif) no-repeat right top;cursor:pointer}
 #content .button3:hover {color:#000}
-#content table.img-indent caption {caption-side:bottom;font-family: Verdana, Geneva, sans-serif;font-size:1.2em}
+#content table caption {caption-side:bottom;font-family: Verdana, Geneva, sans-serif;font-size:1.2em}
 #content .align-bot td {vertical-align:bottom}
-#content .align-bot {text-align:center}
 
 .ic, .ic a {border:0;float:right;background:#f00;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-50% 0 0 0;overflow:hidden;padding:0}
 .main-banner-big {background:url(images/main-banner-big.jpg) no-repeat left top;width:950px;height:303px;margin-bottom:20px}
@@ -168,7 +167,7 @@ table.center {margin-left:auto;margin-right:auto;}
 .dept-list dd span {float:left;padding-right:25px}
 .dept-list dd p {text-align:left}
 /* footer */
-#footer {padding:5px 0 5px 0}
+#footer {padding:3px 0 5px 0}
 #footer .nav {text-align:center;padding-bottom:30px}
 #footer .nav li {display:inline}
 #footer .nav li a {color:#fff;padding:0 52px 0 49px}
