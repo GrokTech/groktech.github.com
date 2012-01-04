@@ -1,0 +1,52 @@
+/*  
+ *  sliderkit-demos.css
+ *	> CSS code for demos
+ *  
+ *  This file is part of Slider Kit jQuery plugin.
+ *  http://www.kyrielles.net/sliderkit/
+ *  
+ *  Copyright (c) 2010-2011 Alan Frog
+ *  Licensed under the GNU General Public License
+ *  See <license.txt> or <http://www.gnu.org/licenses/>
+ *
+ */
+
+/*---------------------------------
+ *  Slideshow > Basic
+ *---------------------------------*/
+.slideshow-standard{width:555px;height:195px;}
+
+/* Navbar */
+.slideshow-standard .sliderkit-nav{left:0;bottom:0;width:295px;padding:10px 0 10px 205px;background:#000;}
+.slideshow-standard .sliderkit-nav-clip ul li{float:left;margin:0;}
+.slideshow-standard .sliderkit-nav-clip ul li a{display:block;width:75px;height:50px;overflow:hidden;margin:0;padding:3px;}
+.slideshow-standard .sliderkit-nav-clip ul li.sliderkit-selected a{padding:0;border:3px solid #fff;}
+
+/* Buttons */
+.slideshow-standard .sliderkit-btn a{position:relative;float:left;display:block;width:20px;height:23px;margin:0 5px;background:transparent url("../images/slideshow-btns.gif") no-repeat 0 0;}
+.slideshow-standard .sliderkit-btn span{display:none;}
+
+/* Play button */
+.slideshow-standard .sliderkit-play-btn a{background-position:-50px 0;}
+.slideshow-standard .sliderkit-play-btn a:hover,
+.slideshow-standard .sliderkit-play-btn a:focus{background-position:-50px -23px;}
+.slideshow-standard .sliderkit-pause-btn a{background-position:-75px 0;}
+.slideshow-standard .sliderkit-pause-btn a:hover,
+.slideshow-standard .sliderkit-pause-btn a:focus{background-position:-75px -23px;}
+
+/* Go buttons */
+.slideshow-standard .sliderkit-go-prev a{background-position:-25px 0;}
+.slideshow-standard .sliderkit-go-next a{background-position:0 0;}
+.slideshow-standard .sliderkit-go-prev a:hover,
+.slideshow-standard .sliderkit-go-prev a:focus{background-position:-25px -23px;}
+.slideshow-standard .sliderkit-go-next a:hover,
+.slideshow-standard .sliderkit-go-next a:focus{background-position:0 -23px;}
+
+/* Panel */
+.slideshow-standard .sliderkit-panel{top:0;left:0;width:555px;height:195px;}
+
+/* Panel > Textbox */
+.slideshow-standard .sliderkit-panel .sliderkit-panel-textbox{bottom:0;left:0;width:555px;height:30px;}
+.slideshow-standard .sliderkit-panel .sliderkit-panel-text{height:20px;padding:5px 15px;font-size:0.9em;color:#fff;}
+.slideshow-standard .sliderkit-panel .sliderkit-panel-text h4{height:auto;margin:0 0 7px;line-height:1.1em;font-size:1.1em;font-weight:bold;border:none;}
+.slideshow-standard .sliderkit-panel .sliderkit-panel-overlay{width:555px;height:30px;background:#000;opacity:0.6;}
