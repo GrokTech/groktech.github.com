@@ -1,0 +1,14 @@
+BEGIN:VCARD
+PRODID:-//suda.co.uk//X2V 0.12 (BETA)//EN
+SOURCE:http://groktech.biz/contact-us.html
+NAME:Contact Us | GrokTech.biz 
+VERSION:3.0
+N:;;;;
+ORG;CHARSET=utf-8:GrokTech
+FN;LANGUAGE=en;CHARSET=utf-8:GrokTech
+URL:http://groktech.biz
+ADR;LANGUAGE=en;CHARSET=utf-8:;;Ashirvad Arcade, #1446/A, 3rd Floor, 18th Main, 39th F Cross, 4th T Block, Jayanagar;Bangalore;;560041;India
+TEL:+91-80-65617555
+TEL:+1-609-529-6353
+END:VCARD
+
