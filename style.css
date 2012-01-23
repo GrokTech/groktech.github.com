@@ -47,7 +47,7 @@ ul {list-style:none}
 .carousel li.prev {margin-right:17px;padding-top:74px}
 .carousel li.next {margin-right:0;padding-top:74px}
 .phones-list li {width:100%;overflow:hidden;padding-bottom:2px}
-.phones-list li strong {float:left;width:75px;color:#2cb6e9}
+.phones-list li strong {float:left;width:85px;color:#2cb6e9}
 /* other */
 .img-indent {margin:0 20px 0 0;float:left}
 .img-indent.fright {float:right;margin:0 0 0 20px}
