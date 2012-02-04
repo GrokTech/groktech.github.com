@@ -48,6 +48,12 @@ ul {list-style:none}
 .carousel li.next {margin-right:0;padding-top:74px}
 .phones-list li {width:100%;overflow:hidden;padding-bottom:2px}
 .phones-list li strong {float:left;width:85px;color:#2cb6e9}
+.syllabus-list {list-style:none;font-size:100%;}
+.syllabus-list li {margin-bottom:10px;}
+.syllabus-list li div {font-weight:bold;font-family:Verdana,sans-serif}
+.syllabus-list li ul {list-style:none;}
+.syllabus-list li ul li {display:inline;}
+.syllabus-list li ul li:before {content:"\2022\0020";}
 /* other */
 .img-indent {margin:0 20px 0 0;float:left}
 .img-indent.fright {float:right;margin:0 0 0 20px}
@@ -68,6 +74,9 @@ h5 {font-size:1em;margin-bottom:5px}
 h6 {font-size:1em;font-weight:normal}
 .txt1 {color:#2cb6e9}
 table.center {margin-left:auto;margin-right:auto;text-align:center}
+.border-table {border-collapse:collapse;}
+.border-table tr th, .border-table tr td {border:1px solid lightgray;}
+.border-table tr th, .border-table tr td { padding:5px; }
 /* header */
 #header .row-1 {height:88px}
 #header .logo {float:left;padding:2px 0 0 10px}
