@@ -16,13 +16,7 @@ p {margin-bottom:16px}
 input,select {vertical-align:middle;font-weight:normal}
 img {border:0;vertical-align:top;text-align:left}
 object {vertical-align:top}
-#contacts-form {clear:right;width:100%;overflow:hidden}
-#contacts-form fieldset {border:none;float:left}
-#contacts-form .field {clear:both;padding-bottom:7px;width:100%;overflow:hidden}
-#contacts-form label {float:left;width:79px;color:#2cb6e9;font-weight:bold}
-#contacts-form input {width:240px;padding:2px 0 2px 3px;border:1px solid #d9d9d9;background:none}
-#contacts-form textarea {width:790px;height:192px;border:1px solid #d9d9d9;background:none;padding:2px 0 2px 3px;margin-bottom:15px;overflow:auto}
-#contacts-form .button {width:150px;float:right}
+#register em b {padding:0px 20px;}
 /* list */
 ul {list-style:none}
 .list1 li {padding-bottom:32px}
@@ -110,22 +104,10 @@ table.center {margin-left:auto;margin-right:auto;text-align:center}
 /* content */
 #content {padding:0 0 20px 0;background:#fff}
 #content .section {padding-bottom:20px}
-#content .button {background:url(images/button-bg.gif) left top repeat-x;display:block;text-align:center;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#fff;text-decoration:none;text-transform:uppercase}
+#content .button {background:url(images/button-bg.gif) left top repeat-x;display:block;text-align:center;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#fff;text-decoration:none;}
 #content .button em {display:block;font-style:normal;background:url(images/button-left.gif) no-repeat left top}
 #content .button em b {display:block;height:35px;line-height:35px;background:url(images/button-right.gif) no-repeat right top;cursor:pointer}
 #content .button:hover {color:#000}
-#content .button1 {background:url(images/button1-bg.gif) left top repeat-x;display:block;text-align:center;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#fff;text-decoration:none;text-transform:uppercase}
-#content .button1 em {display:block;font-style:normal;background:url(images/button1-left.gif) no-repeat left top}
-#content .button1 em b {display:block;height:35px;line-height:35px;background:url(images/button1-right.gif) no-repeat right top;cursor:pointer}
-#content .button1:hover {color:#000}
-#content .button2 {background:url(images/button2-bg.gif) left top repeat-x;display:block;text-align:center;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#fff;text-decoration:none;text-transform:uppercase}
-#content .button2 em {display:block;font-style:normal;background:url(images/button2-left.gif) no-repeat left top}
-#content .button2 em b {display:block;height:35px;line-height:35px;background:url(images/button2-right.gif) no-repeat right top;cursor:pointer}
-#content .button2:hover {color:#000}
-#content .button3 {background:url(images/button3-bg.gif) left top repeat-x;display:block;text-align:center;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#fff;text-decoration:none;text-transform:uppercase}
-#content .button3 em {display:block;font-style:normal;background:url(images/button3-left.gif) no-repeat left top}
-#content .button3 em b {display:block;height:35px;line-height:35px;background:url(images/button3-right.gif) no-repeat right top;cursor:pointer}
-#content .button3:hover {color:#000}
 #content table caption {caption-side:bottom;font-family: Verdana, Geneva, sans-serif;font-size:1.2em}
 #content .align-bot td {vertical-align:bottom}
 
