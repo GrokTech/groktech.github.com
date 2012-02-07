@@ -3,9 +3,8 @@
 #header, #content, #extra-content, #footer {font-size:0.8em}
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7 {float:left}
 /* index.html */
-#page1 #content .col-1 {width:302px;margin-right:22px}
-#page1 #content .col-2 {width:302px;margin-right:22px}
-#page1 #content .col-3 {width:302px}
+#page1 #content .col-1 {width:275px;margin-right:22px}
+#page1 #content .col-2 {width:653px;}
 #page1 #extra-content .col-1 {width:464px;margin-right:22px}
 #page1 #extra-content .col-2 {width:464px}
 /* index-2.html */
