@@ -10,13 +10,13 @@ input,select,textarea {font-family:Tahoma,Geneva,sans-serif;font-size:1em}
 .wrapper {width:100%;overflow:hidden}
 .container {width:100%}
 p {margin-bottom:16px}
-.definition {margin-left: 5px}
+.definition {margin-left:5px}
 .definition a {font-family:"Arial Unicode MS", Arial, Helvetica, sans-serif;font-size:18px;text-decoration:none}
 /* forms */
 input,select {vertical-align:middle;font-weight:normal}
 img {border:0;vertical-align:top;text-align:left}
 object {vertical-align:top}
-#register em b {padding:0px 20px;}
+#register {width:130px;margin-top:20px}
 /* list */
 ul {list-style:none}
 .list1 li {padding-bottom:32px}
@@ -55,22 +55,25 @@ ul {list-style:none}
 .img-box {width:100%;overflow:hidden;padding-bottom:20px}
 .img-box img {float:left;margin:0 20px 0 0}
 .extra-wrap {overflow:hidden}
+.social-buttons {}
 /* txt,links,lines,titles */
 a {color:#2cb6e9;outline:none}
 a:hover{text-decoration:none}
+a.anchor-plain{color:inherit;text-decoration:none}
+a.anchor-plain:hover{color:#2cb6e9;text-decoration:underline}
 h1 {font-size:3em;line-height:1em;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#fff;font-weight:normal;letter-spacing:-1px;width:400px;margin-bottom:42px}
 h2 {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;font-size:22px;line-height:1em;font-weight:normal;margin-bottom:23px;color:#515151}
 h2.alt {letter-spacing:-1px}
-h3 {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;font-size:1.5em;line-height:1.1em;margin-bottom:10px}
+h3 {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;font-size:1.5em;line-height:1.1em;margin-bottom:10px;color:#515151}
 h4 {font-size:.91em;margin-bottom:10px}
 h4 strong {font-size:1.1em;color:#2cb6e9;display:block}
 h5 {font-size:1em;margin-bottom:5px}
 h6 {font-size:1em;font-weight:normal}
 .txt1 {color:#2cb6e9}
 table.center {margin-left:auto;margin-right:auto;text-align:center}
-.border-table {border-collapse:collapse;}
-.border-table tr th, .border-table tr td {border:1px solid lightgray;}
-.border-table tr th, .border-table tr td { padding:5px; }
+.table-border {border-collapse:collapse;}
+.table-border tr th, .table-border tr td {border:1px solid lightgray;}
+.table-padding1 tr th, .table-padding1 tr td { padding:5px; }
 /* header */
 #header .row-1 {height:88px}
 #header .logo {float:left;padding:2px 0 0 10px}
@@ -104,11 +107,11 @@ table.center {margin-left:auto;margin-right:auto;text-align:center}
 /* content */
 #content {padding:0 0 20px 0;background:#fff}
 #content .section {padding-bottom:20px}
-#content .button {background:url(images/button-bg.gif) left top repeat-x;display:block;text-align:center;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#fff;text-decoration:none;}
+#content .button {background:url(images/button-bg.gif) left top repeat-x;display:block;text-align:center;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#000;text-decoration:none;}
 #content .button em {display:block;font-style:normal;background:url(images/button-left.gif) no-repeat left top}
 #content .button em b {display:block;height:35px;line-height:35px;background:url(images/button-right.gif) no-repeat right top;cursor:pointer}
-#content .button:hover {color:#000}
-#content table caption {caption-side:bottom;font-family: Verdana, Geneva, sans-serif;font-size:1.2em}
+#content .button:hover {color:#fff}
+#content table caption {caption-side:bottom;font-family:Verdana, Geneva, sans-serif;font-size:1.2em}
 #content .align-bot td {vertical-align:bottom}
 
 .ic, .ic a {border:0;float:right;background:#f00;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-50% 0 0 0;overflow:hidden;padding:0}
