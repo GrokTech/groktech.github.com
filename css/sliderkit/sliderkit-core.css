@@ -2,7 +2,7 @@
  *  Licensed under the GNU General Public License
  *  See <license.txt> or <http://www.gnu.org/licenses/>
  */
-.sliderkit{display:inline;position:relative;overflow:hidden;text-align:left;}
+.sliderkit{display:block;visibility:hidden;position:relative;overflow:hidden;text-align:left;}
 .sliderkit a,
 .sliderkit a:hover{text-decoration:none;}
 .sliderkit a:focus{outline:1px dotted #000;}

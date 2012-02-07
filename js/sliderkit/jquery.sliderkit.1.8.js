@@ -88,7 +88,7 @@
 			}
 			
 			// By default, the widget should be hidden via CSS. Then shown only if javascript is available :
-			this.domObj.css("display","block");
+			this.domObj.css("visibility","visible"); // Dheeraj: Changed 'display' to 'visibility' to preserve element size even if hidden
 	
 			// Variables that will be needed all over the script			
 			this.currId = 0;
