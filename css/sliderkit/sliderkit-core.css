@@ -1,5 +1,8 @@
-/* Copyright (c) 2010-2011 Alan Frog */
-.sliderkit{display:hidden;position:relative;overflow:hidden;text-align:left;}
+/* Copyright (c) 2010-2011 Alan Frog
+ *  Licensed under the GNU General Public License
+ *  See <license.txt> or <http://www.gnu.org/licenses/>
+ */
+.sliderkit{display:inline;position:relative;overflow:hidden;text-align:left;}
 .sliderkit a,
 .sliderkit a:hover{text-decoration:none;}
 .sliderkit a:focus{outline:1px dotted #000;}
