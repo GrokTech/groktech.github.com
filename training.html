@@ -27,7 +27,24 @@
 <!--[if IE 8]><link rel="stylesheet" type="text/css" href="css/sliderkit/sliderkit-page-ie8.css" /><![endif]-->
 
 <!-- Javascript -->
+<!-- Google Analytics script -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27879291-1']);
+  _gaq.push(['_trackPageview']);
 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="js/maxheight.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.js"></script>
+<!--[if lt IE 7]><script type="text/javascript" src="js/jquery/jquery.dropdown.js"></script><![endif]-->
+<script type="text/javascript" src="js/jquery/jquery.easing.1.3.min.js"></script>
+<script type="text/javascript" src="js/sliderkit/jquery.sliderkit.1.8.min.js"></script>
+<script type="text/javascript" src="js/sliderkit/addons/sliderkit.delaycaptions.min.js"></script>
 <!-- Slider Kit launch -->
 <script type="text/javascript">
 	$(window).load(function(){ //$(window).load() must be used instead of $(document).ready() because of Webkit compatibility				
@@ -51,48 +68,26 @@
 						easing:"easeOutExpo"
 					},
 		});
+
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&amp;appId=247918658619655";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		(function() {
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
 	});
 </script>
-
-<!-- Google Analytics script -->
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-27879291-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-<script type="text/javascript" src="js/maxheight.js"></script>
-<script type="text/javascript" src="js/jquery/jquery.js"></script>
-<!--[if lt IE 7]><script type="text/javascript" src="js/jquery/jquery.dropdown.js"></script><![endif]-->
-<script type="text/javascript" src="js/jquery/jquery.easing.1.3.min.js"></script>
-<script type="text/javascript" src="js/sliderkit/jquery.sliderkit.1.8.min.js"></script>
-<script type="text/javascript" src="js/sliderkit/addons/sliderkit.delaycaptions.min.js"></script>
 </head>
 
 <body id="page7" onload="new ElementMaxHeight();">
-	<!-- Facebook Like button script -->
-		<div id="fb-root"></div>
-		<script type="text/javascript">(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&amp;appId=247918658619655";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-
-	<!-- Google Plus-One button script -->
-	<script type="text/javascript">
-	  (function() {
-		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-		po.src = 'https://apis.google.com/js/plusone.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-	  })();
-	</script>
+	<div id="fb-root"></div>
 <!-- header -->
 	<div id="header">
 		<div class="container">
