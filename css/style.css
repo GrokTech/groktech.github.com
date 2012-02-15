@@ -74,6 +74,7 @@ table.center {margin-left:auto;margin-right:auto;text-align:center}
 .table-border {border-collapse:collapse;}
 .table-border tr th, .table-border tr td {border:1px solid lightgray;}
 .table-padding1 tr th, .table-padding1 tr td { padding:5px; }
+.table-padding2 tr th, .table-padding2 tr td { padding:0px 3px; }
 /* header */
 #header .row-1 {height:88px}
 #header .logo {float:left;padding:2px 0 0 10px}
